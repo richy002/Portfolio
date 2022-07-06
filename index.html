@@ -18,8 +18,9 @@
             <ul>
                 <li class="logo"><a href="index.html"> Oriaehi</a></li>
                 <li><a class="current" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#about">Projects</a></li>
+                <li><a href="#contact-id">Contact</a></li>
             </ul>
         </div>      
     </nav>
@@ -42,41 +43,64 @@
   </section>
 
   <!--About me-->
-  <section class="about">
+  <section class="about" id="about">
         <div class="container">
             <div class="about-me">
-                <h1>About me</h1>
-                <p> Oriaehi Richardson Okiti is a front end web developer based in Abuja, Nigeria.
-                    he enjoy designing and creating interesting digital experiences. </p>
-                <p>Oriaehi is highly proficient in Html5 and CSS3.  
-                <p>Oriaehi employ best SEO practices like "Semantic HTML" 
-                    and more on websites and projects I work on to improve the site visibility and rankings on Google.
-                    I am currently working on improving my JavaScript skills by building various projects to enhance my abilities.</p>
-                <h1>Technologies and tools Oriaehi is currently exploring and interested about.</h1>
+                <h1>About</h1>
+                <p> Oriaehi Richardson Okiti is a front end web developer and currently a Tiidelab Cohort 4 Fellow based in Abuja, Nigeria.
+                    He enjoys designing and creating interesting digital experiences,and he is highly proficient in Html5 and CSS3.</p>
+                <p>Oriaehi employs best SEO practices like "Semantic HTML"  on websites and projects he builds to improve the site visibility and ranking on Google.
+                    He is currently working on improving his JavaScript skills by building various projects to enhance his abilities.</p>
+                <h1 class="tech">Technological tools Oriaehi is currently exploring and interested in.</h1>
                 <ul>
                     <li><i class="fab fa-html5"></i>  HTML</li>
                     <li> <i class="fab fa-css3"></i>  CSS</li>
                     <li><i class="fab fa-js"></i>  JavaScript</li>
                 </ul>
             </div>
+            <div class="grid">
+                <h1>Photos from Tiidelab Physical Meetup</h1>
+                <div class="image-grid">
+                    <img class="image-grid-col-2 image-grid-row-2" src="/images/IMG_3024.JPG" alt="architecture">
+                    <img src="/images/IMG_3045.JPG" alt="">
+                    <img src="/images/IMG_3029.JPG" alt="">
+                    <img src="/images/IMG_3044.JPG" alt="">
+                    <img src="/images/IMG_3013.JPG" alt="">
+                  </div>
+                
+            </div>
         </div>
   </section>
 
   <section class="project">
-         <div class="container">
-            <h1 class="project-heading">Projects</h1>
-            <div class="project-space">
-                <div class="project-1">
-                    <h1 class="project-sub"> e-commerce for mobile phones, simple to navigate</h1>
-                <a href="https://resplendent-alfajores-a3a6f0.netlify.app/"><img src="./images/gamma.jpg" alt=""></a>
+        <div class="container">
+            <h1>Projects</h1>
+           <div class="project-card">
+            <div class="card">
+                <div class="card-image p1">
                 </div>
-                  <div class="project-2">
-                    <h1>Seach user name with JavaScript</h1>
-                    <a href="https://celebrated-speculoos-8240e8.netlify.app/"><img src="./images/search.jpg" alt=""></a>
-                  </div>
-            </div>        
-        </div>          
+                <h2>Online Shop</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque quis ex, porro quia incidunt?</p>
+              </div>
+              <div class="card">
+                <div class="card-image p2"></div>
+                <h2>Search Function </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ad laboriosam nemo reiciendis porro. Dolores!</p>
+              </div>
+           </div>
+        </div>
   </section>
+
+  <section class="contact" >
+    <form id="contact-id">      
+        <h1>Contact Me</h1>
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+        <input type="submit" value="SUBMIT"/>
+      </form>
+  </section>
+
 
   <footer>
      <div class="social">
